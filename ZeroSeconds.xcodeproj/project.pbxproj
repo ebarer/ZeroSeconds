@@ -14,6 +14,8 @@
 		CEAC4EFE1F4EB4CC00AA50B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAC4EFC1F4EB4CC00AA50B8 /* Main.storyboard */; };
 		CEAC4F001F4EB4CC00AA50B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAC4EFF1F4EB4CC00AA50B8 /* Assets.xcassets */; };
 		CEAC4F031F4EB4CC00AA50B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAC4F011F4EB4CC00AA50B8 /* LaunchScreen.storyboard */; };
+		CEAC4F0F1F4F759300AA50B8 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC4F0E1F4F759300AA50B8 /* SettingsTableViewController.swift */; };
+		CEAC4F111F4F75C000AA50B8 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAC4F101F4F75C000AA50B8 /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CEAC4EFF1F4EB4CC00AA50B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAC4F021F4EB4CC00AA50B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAC4F041F4EB4CC00AA50B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAC4F0E1F4F759300AA50B8 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		CEAC4F101F4F75C000AA50B8 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				CEAC4EF41F4EB4CC00AA50B8 /* AppDelegate.swift */,
-				CEAC4EF61F4EB4CC00AA50B8 /* RootViewController.swift */,
-				CEAC4EF81F4EB4CC00AA50B8 /* DataViewController.swift */,
-				CEAC4EFA1F4EB4CC00AA50B8 /* ModelController.swift */,
+				CEAC4F101F4F75C000AA50B8 /* Event.swift */,
 				CEAC4EFC1F4EB4CC00AA50B8 /* Main.storyboard */,
+				CEAC4EF61F4EB4CC00AA50B8 /* RootViewController.swift */,
+				CEAC4EFA1F4EB4CC00AA50B8 /* ModelController.swift */,
+				CEAC4EF81F4EB4CC00AA50B8 /* DataViewController.swift */,
+				CEAC4F0E1F4F759300AA50B8 /* SettingsTableViewController.swift */,
 				CEAC4EFF1F4EB4CC00AA50B8 /* Assets.xcassets */,
 				CEAC4F011F4EB4CC00AA50B8 /* LaunchScreen.storyboard */,
 				CEAC4F041F4EB4CC00AA50B8 /* Info.plist */,
@@ -142,10 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAC4F111F4F75C000AA50B8 /* Event.swift in Sources */,
 				CEAC4EF71F4EB4CC00AA50B8 /* RootViewController.swift in Sources */,
 				CEAC4EFB1F4EB4CC00AA50B8 /* ModelController.swift in Sources */,
 				CEAC4EF91F4EB4CC00AA50B8 /* DataViewController.swift in Sources */,
 				CEAC4EF51F4EB4CC00AA50B8 /* AppDelegate.swift in Sources */,
+				CEAC4F0F1F4F759300AA50B8 /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
